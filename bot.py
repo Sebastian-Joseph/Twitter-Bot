@@ -79,8 +79,6 @@ while True:
 
 
 
-    
-
 
 #code to add more prompts to database
 
@@ -92,7 +90,7 @@ for values in data:
 mydb.commit()
 print(mycursor.rowcount, "record(s) inserted.")
 
-"""
+
 
 
 
@@ -100,3 +98,4 @@ mycursor.execute("SELECT * FROM prompts")
 myresult = mycursor.fetchall()
 for x in myresult:
     print(x)
+"""
